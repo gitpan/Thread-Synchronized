@@ -3,7 +3,7 @@ package Thread::Synchronized;
 # Make sure we have version info for this module
 # Make sure we do everything by the book from now on
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 use strict;
 
 # Make sure we can do threads
@@ -122,6 +122,10 @@ This module currently adds one feature to threaded programs: the
 "synchronized" and "method" subroutine attributes which causes calls to that
 subroutine to be automatically synchronized between threads (only one thread
 can execute that subroutine at a time or per object at a time).
+
+=head1 REQUIRED MODULES
+
+ (none)
 
 =head1 CAVEATS
 
